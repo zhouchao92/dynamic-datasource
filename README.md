@@ -17,7 +17,7 @@ spring:
 db:
   dynamic:
     datasource:
-      # 多数据源链接格式
+      # 多数据源连接格式
       path: jdbc:mysql://%s:3306/%s?useSSL=false&useUnicode=true
 ```
 
